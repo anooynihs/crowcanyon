@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크로우캐년</title>
+    <link rel="shortcut icon" href="./images/logo-b.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo-b.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./script/index.js" defer></script>
+</head>
+<body>
+    <div id="mobile-container">
+        <header>
+            <!-- 최상단 블랙라인 알림 -->
+            <div class="swiper" id="black-line">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">공식 온라인스토어 신규가입 15% 할인</div>
+                    <div class="swiper-slide">2시 이전 결제 시 당일 출발</div>
+                    <div class="swiper-slide">Goodbye Sale 최대 50%</div>
+                </div>
+            </div>
+            <div class="logo-bag-menu">
+                <h1 id="logo"><img src="./images/logo-w.png" alt="크로우캐년"></h1>
+                <div class="basket-menu">
+                    <a href="#"><img src="./images/icons/cart.png" alt="쇼핑백"></a>
+                    <a href="#"><img src="./images/icons/menu-w.png" alt="상품검색 및 메뉴"></a>
+                </div>
+                <!-- 검색, 메뉴 팝업창 -->
+                <div class="popup">
+                    <div class="search">
+                        <input type="search" placeholder="SEARCH">
+                        <button type="button"><img src="./images/icons/search-b.png" alt="검색"></button>
+                    </div>
+                    <div class="user-nav">
+                        <a href="#">로그인</a>
+                        <a href="#">마이페이지</a>
+                        <a href="#">주문/배송 조회</a>
+                    </div>
+                    <div class="list shop">
+                        <h3>SHOP</h3>
+                        <a href="#">테이블웨어</a>
+                        <a href="#">키친웨어</a>
+                        <a href="#">펫보울</a>
+                        <a href="#">아이폰, 아이패드 케이스</a>
+                        <a href="#">선물세트</a>
+                        <a href="#">컬렉션별 모아보기</a>
+                    </div>
+                    <div class="list magazine">
+                        <h3>MAGAZINE</h3>
+                        <a href="#">Newsletter</a>
+                        <a href="#">CROWHERE</a>
+                        <a href="#">Crow Cook Challenge</a>
+                        <a href="#">Lookbook</a>
+                    </div>
+                    <div class="question">
+                        <a href="#">자주하는 질문</a>
+                        <a href="#">1:1 문의</a>
+                    </div>
+                    <div class="company">
+                        <a href="#">OUR STORY</a>
+                        <a href="#">지속 가능성</a>
+                        <a href="#">법랑 세척/관리법</a>
+                        <a href="#">오프라인 스토어</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- 히어로 배너 섹션 -->
+            <section id="hero">
+                <h2 class="copyright">시간을 넘어<br>변함없는 아름다움을 위한<br>에나멜웨어</h2>
+                <div class="shop-now"><a href="#">SHOP NOW</a><img src="./images/icons/arrow-w.png" alt=""></div>
+                <div class="event-swiper">
+                    <h3>Only Today Price</h3>
+                    <div class="swiper" id="event">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                                <a href="#" class="thumbnail"><img src="./images/sale-1.png" alt=""></a>
+                                <p class="item-name">아이폰케이스<br>터키마블(13/14)</p>
+                                <p class="item-price"><em>50%</em>12,000</p>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="#" class="thumbnail"><img src="./images/sale-2.png" alt=""></a>
+                                <p class="item-name">D17<br>시리얼보울 새들브라운마블</p>
+                                <p class="item-price"><em>20%</em>17,600</p>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="#" class="thumbnail"><img src="./images/sale-3.png" alt=""></a>
+                                <p class="item-name">D70<br>머핀팬 블루마블</p>
+                                <p class="item-price"><em>20%</em>44,000</p>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="#" class="thumbnail"><img src="./images/sale-4.png" alt=""></a>
+                                <p class="item-name">D20<br>디너플레이트 레드마블</p>
+                                <p class="item-price"><em>20%</em>20,000</p>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="#" class="thumbnail"><img src="./images/sale-5.png" alt=""></a>
+                                <p class="item-name">D49<br>스몰스푼 오렌지마블</p>
+                                <p class="item-price"><em>20%</em>7,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 신상품 -->
+            <section id="new">
+                <h2 class="section-title">NEW</h2>
+                <div class="item-wrap">
+                    <div class="advertising">
+                        <a href="#" class="ad-thumbnail"><img src="./images/new-color.jpg" alt=""></a>
+                        <em>NEW COLOR</em>
+                        <span>크로우캐년의 가장 아이코닉한
+                            <br>마블 컬렉션에 새로운 컬러 출시
+                        </span>
+                        <a href="#" class="arrow"><img src="./images/icons/arrow-w.png" alt="새로 출시된 마블 컬렉션"></a>
+                    </div>
+                    <div class="item item1">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/new-1.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">SP94<br>오발플레이트 스칼렛 블루마블</p>
+                        <p class="item-price">28,000</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                            <button type="button" class="chip2"></button>
+                            <button type="button" class="chip3"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrap">
+                    <div class="item item2">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/new-2.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">TP32S2<br>쁘띠튜린 토프 스월</p>
+                        <p class="item-price">29,000</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/new-3.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">C17<br>시리얼보울 버뮤다 버터컵</p>
+                        <p class="item-price">24,000</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                            <button type="button" class="chip2"></button>
+                            <button type="button" class="chip3"></button>
+                            <button type="button" class="chip4"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-btn">
+                    <a href="#">상품 전체보기</a>
+                </div>
+            </section>
+            <!-- 베스트상품 -->
+            <section id="best">
+                <h2 class="section-title">BEST</h2>
+                <div class="item-wrap">
+                    <div class="item item1">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/best-1.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">D11<br>머그 블랙마블</p>
+                        <p class="item-price"><em>5%</em>17,100</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/best-2.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">D20<br>디너플레이트 터키마블</p>
+                        <p class="item-price"><em>10%</em>22,500</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrap">
+                    <div class="item item3">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/best-3.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">D93<br>텀블러 민트마블</p>
+                        <p class="item-price"><em>5%</em>19,900</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="thumbnail-wish">
+                            <a href="#" class="thumbnail"><img src="./images/best-4.png" alt=""></a>
+                            <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                        </div>
+                        <p class="item-name">V17<br>시리얼보울 레드</p>
+                        <p class="item-price"><em>5%</em>19,900</p>
+                        <div class="colorchip">
+                            <button type="button" class="chip1"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-btn">
+                    <a href="#">상품 전체보기</a>
+                </div>
+            </section>
+            <!-- 컬렉션 -->
+            <section id="collections">
+                <h2 class="section-title">COLLECTIONS</h2>
+                <p class="sub-title">크로우캐년의 제품을 컬렉션별로 만나보세요</p>
+                <div class="collection-box">
+                    <div class="collection-img">
+                        <a href="#" class="catalina"><img src="./images/catalina.jpg" alt="카탈리나 컬렉션"></a>
+                    </div>
+                    <div class="collection-tab">
+                        <button type="button" class="marble-tab">마블</button>
+                        <button type="button" class="classic-tab">클래식</button>
+                        <button type="button" class="sparkle-tab">스파클</button>
+                        <button type="button" class="stinson-tab">스틴슨</button>
+                        <button type="button" class="catalina-tab">카탈리나</button>
+                    </div>
+                </div>
+            </section>
+            <!-- 프로모션 배너 -->
+            <section id="promotion">
+                <h2 class="section-title">PROMOTION</h2>
+                <div class="swiper" id="promotion-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/promotion-pet.jpg" alt="">
+                            <a href="#">반려동물을 위한</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/promotion-pet.jpg" alt="">
+                            <a href="#">캠핑을 위한</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/promotion-pet.jpg" alt="">
+                            <a href="#">선물하기 좋은</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/promotion-pet.jpg" alt="">
+                            <a href="#">1인 가구를 위한</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 쿡 챌린지 -->
+            <section id="challenge">
+                <h2 class="section-title">Crow Canyon Challenge</h2>
+                <p class="sub-title">크로우캐년과 함께하는 쿡 챌린지</p>
+                <div class="ccc-thumbnail">
+                    <span class="detail-title">노 서프라이즈, 파슬스의 대표 이윤지님의 PICK</span>
+                    <img src="./images/ccc.jpg" alt="노 서프라이즈, 파슬스의 대표 이윤지님의 PICK">
+                </div>
+                <div class="swiper item-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item">
+                            <div class="thumbnail-wish">
+                                <a href="#" class="thumbnail"><img src="./images/best-1.png" alt=""></a>
+                                <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                            </div>
+                            <p class="item-name">D11<br>머그 블랙마블</p>
+                            <p class="item-price">32,000</p>
+                            <div class="colorchip">
+                                <button type="button" class="chip1"></button>
+                                <button type="button" class="chip2"></button>
+                                <button type="button" class="chip3"></button>
+                                <button type="button" class="chip4"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item">
+                            <div class="thumbnail-wish">
+                                <a href="#" class="thumbnail"><img src="./images/best-2.png" alt=""></a>
+                                <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                            </div>
+                            <p class="item-name">D11<br>머그 블랙마블</p>
+                            <p class="item-price">32,000</p>
+                            <div class="colorchip">
+                                <button type="button" class="chip1"></button>
+                                <button type="button" class="chip2"></button>
+                                <button type="button" class="chip3"></button>
+                                <button type="button" class="chip4"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item">
+                            <div class="thumbnail-wish">
+                                <a href="#" class="thumbnail"><img src="./images/best-1.png" alt=""></a>
+                                <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                            </div>
+                            <p class="item-name">D11<br>머그 블랙마블</p>
+                            <p class="item-price">32,000</p>
+                            <div class="colorchip">
+                                <button type="button" class="chip1"></button>
+                                <button type="button" class="chip2"></button>
+                                <button type="button" class="chip3"></button>
+                                <button type="button" class="chip4"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item">
+                            <div class="thumbnail-wish">
+                                <a href="#" class="thumbnail"><img src="./images/best-2.png" alt=""></a>
+                                <button type="button" class="wish"><img src="./images/icons/wish-b.png" alt="위시리스트 저장"></button>
+                            </div>
+                            <p class="item-name">D11<br>머그 블랙마블</p>
+                            <p class="item-price">32,000</p>
+                            <div class="colorchip">
+                                <button type="button" class="chip1"></button>
+                                <button type="button" class="chip2"></button>
+                                <button type="button" class="chip3"></button>
+                                <button type="button" class="chip4"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-btn">
+                        <button type="button" class="prev"><img src="./images/icons/slide-prev.png" alt="이전 상품보기"></button>
+                        <button type="button" class="next"><img src="./images/icons/slide-next.png" alt="다음 상품보기"></button>
+                    </div>
+                </div>
+            </section>
+            <!-- 룩북 -->
+            <section id="lookbook">
+                <h3 class="copyright-title">Enamelware that serves the greater goods.</h3>
+                <div class="image-wrap">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                    <img src="./images/ccc.jpg" alt="" class="lookbook-img">
+                </div>
+            </section>
+            <!-- 법랑관리, 스토어 안내 배너 -->
+            <section id="support">
+                <a class="care">법랑 세척/관리법</a>
+                <a class="offline-store">오프라인 스토어 찾기</a>
+            </section>
+        </main>
+        <footer>
+            <div class="cs-center">
+                <h2>[CS Center] 02-336-5288 <span>(평일 13:00 - 17:00)</span></h2>
+                <p class="email">info@scopeseoul.kr</p>
+            </div>
+            <div class="terms-wrap">
+                <div class="terms">
+                    <a href="#">공지사항</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보취급방침</a>
+                    <a href="#">이용안내</a>
+                </div>
+                <p class="legal">
+                    스코프컴퍼니 주식회사
+                    <br>03716 서울 서대문구 연희로5길 58
+                    <br>CEO 설혜윤   |   CPO 서동순
+                    <br>LICENSE 347-81-01800
+                    <br>ONLINE LICENSE 2024-서울서대문-0870
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
