@@ -1,5 +1,5 @@
 /* ====================================================== html, body 크기 및 기본 */
-body {background-color: #2D2D2D;}
+body {background-color: #000;}
 #mobile-container {
     width: 100%; min-width: 370px; max-width: 440px;
     margin: 0 auto; overflow: hidden;
